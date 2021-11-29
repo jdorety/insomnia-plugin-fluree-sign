@@ -32,7 +32,7 @@ module.exports.requestHooks = [
       const param = request.getBody();
       const miniParam = JSON.stringify(JSON.parse(param.text));
       const auth = getSinFromPublicKey(publicKey);
-			debugger;
+      debugger;
       if (command === "command") {
         console.log("transact");
       } else if (command === "query") {
@@ -44,7 +44,7 @@ module.exports.requestHooks = [
           `${network}/${db}`,
           auth
         );
-				debugger;
+        debugger;
         const headerArr = Object.entries(signedRequest.headers);
         headerArr.forEach((header) => {
           request.addHeader(header[0], header[1]);
@@ -53,11 +53,11 @@ module.exports.requestHooks = [
         console.log(request.getBody());
         const gotHeaders = request.getHeaders();
         console.log(gotHeaders);
-				console.log(request.getMethod())
+        console.log(request.getMethod());
       }
     }
   },
-	(context) => {
-		debugger;
-	}
+  (context) => {
+    debugger;
+  },
 ];
