@@ -5,7 +5,11 @@
   "insomnia": {
     "name": "fluree-sign",
     "displayName": "Fluree Request Signing",
-    "description": "Allow for signing queries and transactions via Fluree's HTTP API"
+    "description": "Allow for signing queries and transactions via Fluree's HTTP API",
+    "images": {
+      "icon": "icon.svg",
+      "cover": "cover.svg"
+    }
   },
   "repository": {
     "type": "git",
