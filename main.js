@@ -49,7 +49,10 @@ module.exports.requestHooks = [
         headerArr.forEach((header) => {
           request.addHeader(header[0], header[1]);
         });
-        request.setBody(signedRequest.body);
+        request.setBody({
+          mimeType: "application/json",
+          text: signedRequest.body,
+        });
         console.log(request.getBody());
         const gotHeaders = request.getHeaders();
         console.log(gotHeaders);
