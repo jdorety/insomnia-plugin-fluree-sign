@@ -1,6 +1,6 @@
 {
   "name": "insomnia-plugin-fluree-sign",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "private": true,
   "insomnia": {
     "name": "fluree-sign",
