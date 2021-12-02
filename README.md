@@ -14,4 +14,6 @@ Copy the public & private keys for the `_auth` record you would like to sign wit
 
 Current usage is restricted to the `query` and `command` endpoints. Any other endpoints will not trigger the plugin.
 
-**NOTE**: This plugin has only been tested on a _local_ Fluree ledger so far.
+## Development Notes
+
+This plugin has only been tested on a _local_ Fluree ledger so far.
