@@ -9,7 +9,7 @@ const Url = require("url-parse");
 
 const txParams = () => {
   const rollNonce = () => Math.ceil(Math.random() * 100);
-  return { expire: Date.now() + 1000, fuel: 100000, nonce: rollNonce() };
+  return { expire: Date.now() + 1500, fuel: 100000, nonce: rollNonce() };
 };
 
 module.exports.requestHooks = [

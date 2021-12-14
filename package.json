@@ -1,15 +1,16 @@
 {
   "name": "insomnia-plugin-fluree-sign",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": false,
   "insomnia": {
     "name": "fluree-sign",
     "displayName": "Fluree Request Signing",
     "description": "Allow for signing queries and transactions via Fluree's HTTP API",
-    "images": {
-      "icon": "icon.svg",
-      "cover": "cover.svg"
-    }
+    "publisher": {
+      "name": "Jonathan Dorety",
+      "icon": "https://avatars.githubusercontent.com/u/36145101?v=4"
+    },
+    "unlisted": false
   },
   "repository": {
     "type": "git",
